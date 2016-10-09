@@ -5,7 +5,7 @@
  * @author wang <baobeigou.com>
  */
 
-namespace Ryan\RSA;
+namespace Ryanc\RSA;
 
 class Provider
 {
