@@ -1,7 +1,6 @@
 {
     "name": "ryanc/rsa",
     "description": "RSA ENCODE DECODE",
-    "version": "1.0.0",
     "keywords": ["RSA", "Asymmetric encryption"],
     "license": "MIT",
     "authors": [
