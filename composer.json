@@ -1,11 +1,23 @@
 {
     "name": "ryanc/rsa",
     "description": "RSA ENCODE DECODE",
-    "version":"1.0.0",
+    "version": "1.0.0",
+    "keywords": ["RSA", "Asymmetric encryption"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ryanc",
+            "email": "china8036@126.com",
+            "homepage": "http://chaoma.me",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "php": ">=5.3"
     },
-   "autoload": {
-        "psr-4": { "Ryanc\\RSA\\": "src/"}
+    "autoload": {
+        "psr-4": {
+            "Ryanc\\RSA\\": "src/"
+        }
     }
 }
