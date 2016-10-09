@@ -1,0 +1,10 @@
+{
+    "name": "Ryan/RSA",
+    "description": "RSA ENCODE DECODE",
+    "require": {
+        "php": ">=5.3"
+    },
+   "autoload": {
+        "psr-4": { "Ryan\\RSA\\": "src/"}
+    }
+}

@@ -4,11 +4,11 @@
  * Rsa 加密 解密 demo
  * @author Wang [BBG]
  */
-require_once 'Rsa.php';
+require_once 'src/Provider.php';
 
 try {
     
-    $rsa = new Rsa();
+    $rsa = new \Ryan\RSA\Provider('rsa.config.php');
 
     $str = '宝贝购 BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com 宝贝购BBG ';
 
