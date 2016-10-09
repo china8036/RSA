@@ -8,7 +8,7 @@ require_once 'src/Provider.php';
 
 try {
     
-    $rsa = new \Ryan\RSA\Provider('rsa.config.php');
+    $rsa = new \Ryanc\RSA\Provider('rsa.config.php');
 
     $str = '宝贝购 BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com BBG baobeigou.com 宝贝购BBG ';
 

@@ -2,10 +2,10 @@
 
 /**
  * RSA 公钥 私钥加密 解密 尝试
- * @author Ryan [chaoma.me]
+ * @author Ryanc [chaoma.me]
  */
 
-namespace Ryan\RSA;
+namespace Ryanc\RSA;
 
 class Provider
 {
