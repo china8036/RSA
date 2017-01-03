@@ -109,12 +109,12 @@ class Provider
         switch ($type) {
             case 1:
                 if (empty($this->_config['public_key'])) {
-                    throw new Exception('请配置公钥');
+                    throw new \Exception('请配置公钥');
                 }
                 break;
             case 2:
                 if (empty($this->_config['private_key'])) {
-                    throw new Exception('请配置私钥');
+                    throw new \Exception('请配置私钥');
                 }
                 break;
         }
@@ -148,7 +148,7 @@ class Provider
         $data = base64_decode($data);
         $array_data = unserialize($data);
         if (!is_array($array_data)) {
-            throw new Exception('数据加密不符');
+            throw new \Exception('数据加密不符');
         }
         return $array_data;
     }
