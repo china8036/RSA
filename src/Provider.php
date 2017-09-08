@@ -132,7 +132,7 @@ class Provider
         $total_lenth = strlen($data);
         $per = 96; // 能整除2 和 3 RSA每次加密不能超过100个
         $dy = $total_lenth % $per;
-        $total_block = $dy ? ($total_lenth / $per) : ($total_lenth / $per - 1);
+        $total_block = $dy ? ($total_lenth / $per) : ($total_lenth / ($per - 1)):;
         for ($i = 0; $i < $total_block; $i++) {
             $return[] = substr($data, $i * $per, $per); //把要加密的信息base64 后 按64长分组
         }
